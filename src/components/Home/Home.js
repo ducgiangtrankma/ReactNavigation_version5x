@@ -21,7 +21,7 @@ export default class Home extends Component {
             onPress={() => {
               this.props.navigation.navigate('HomeDetail');
             }}>
-            <Text>Go to Detail Screen</Text>
+            <Text style={{marginTop: 10}}>Go to Detail Screen</Text>
           </TouchableOpacity>
         </View>
       </SafeAreaView>
